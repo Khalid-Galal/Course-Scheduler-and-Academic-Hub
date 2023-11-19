@@ -1,0 +1,150 @@
+html{
+    scroll-behavior:smooth ;
+}
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+h1 , p{
+    padding: 5px;
+    margin: 5px;
+}
+p 
+{
+   font-size: 20px;
+}
+
+.navbar
+{
+    background-color: rgba(125, 187, 11, 0.87);
+  
+    width: 100%;
+    height: 48px;
+    margin: auto;
+    text-align: center ;
+
+    position: fixed   ;
+    top: 0;
+}
+.navbar .goto
+{
+    width: 100%;
+    margin-right: 10px;
+
+}
+ul
+{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+  li {
+    
+    float: left;
+    /* padding-left: 20px ;
+    padding-right: 20px; */
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    
+    background-color: #111;
+  }
+ 
+.clr
+{
+    clear: both;
+}
+.welcome
+{
+   
+   /* background */
+    overflow: auto;
+   background-image: url(images/schedule.jpg);
+   height: 100vh;
+   background-size: cover;
+
+   background-position: center center;
+   position: relative;
+}
+img
+{
+    border-radius: 2%;
+}
+.welcome h1{
+   
+ 
+
+    padding-top: 3cm;
+    padding-right: 4cm;
+}
+.welcome , .schadule , .first_course , .second_course , .courses ,.route
+{
+    text-align: center;
+    
+}
+
+
+.first_course , .second_course , .courses , .WD
+{
+    color: chocolate;
+    display: inline-block;
+    vertical-align: top;
+}
+.schadule
+{
+   
+   /* background-color: rgb(173, 146, 127); */
+  
+  
+   
+
+}
+
+
+.first_course , .second_course , .route.WD
+{   
+width: 49%;
+}
+.WD
+{   
+    width: 49%;
+}
+
+
+a
+{
+    color: rgba(67, 68, 63, 0.733);
+}
+.courses
+{
+width: 33%;
+}
+
+.first_course img , .second_course img , .WD img
+{
+    width: 100%;
+    background-size: cover;
+}
+
+.courses img
+{
+    width: 80%;
+}
+.img2 {
+    float: right;
+  }
+@media screen {
+    
+}
